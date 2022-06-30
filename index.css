@@ -1,0 +1,23 @@
+@import './button.css';
+
+:root {
+  --Primary: #43DDE6;
+  --White: #ffffff;  
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--Primary);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  color: var(--Primary)
+}
+.wrapper{
+  max-inline-size: 900px;
+  margin: auto;
+}
+.player video{
+  inline-size: 100%;
+}
