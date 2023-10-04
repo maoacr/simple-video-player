@@ -1,7 +1,7 @@
 @import './button.css';
 
 :root {
-  --Primary: #43DDE6;
+  --Primary: #116978;
   --White: #ffffff;  
 }
 body{
@@ -11,12 +11,12 @@ body{
   background-color: var(--Primary);
   font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-  color: var(--Primary)
-}
 .wrapper{
   max-inline-size: 900px;
   margin: auto;
+  display: grid;
+  justify-content: center;
+  align-content: center;
 }
 .player{
   margin-block-start: 100px;
